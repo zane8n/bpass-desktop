@@ -1,6 +1,7 @@
+@import '~antd/dist/antd.css';
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'ComfortaaRegular', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11,3 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: "ComfortaaRegular";
+  src: local("ComfortaaRegular"),
+   url("./fonts/Comfortaa-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "ComfortaaLight";
+    src: local("ComfortaaLight"),
+     url("./fonts/Comfortaa-Light.ttf") format("truetype");
+    }

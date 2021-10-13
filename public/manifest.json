@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "bpass",
+  "name": "bpass public bus transport management system",
   "icons": [
     {
       "src": "favicon.ico",
